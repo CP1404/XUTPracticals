@@ -1,4 +1,4 @@
-# Practical Solutions for IT@JCU CP1404/CP1804/CP5632
+# Practical Solutions for Python Programming at XUT
 
 Selected practical solutions are provided here, in this "solutions" branch.  
 These are to help you learn by evaluating your own work and seeing our suggested ways of solving the practical problems. 
@@ -15,5 +15,3 @@ Please use the solutions in a mature and honest way, as helpful learning tools..
 * [Practical 06 - Classes](./prac_06)
 * [Practical 07 - Kivy](./prac_07)
 * [Practical 08 - Inheritance](./prac_08)
-* [Practical 09 - OS](./prac_09)
-* [Practical 10 - Recursion, Testing, API, Flask](./prac_10)
