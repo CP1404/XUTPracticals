@@ -1,7 +1,5 @@
 # Practical 07 - Kivy
 
-Don't forget to make a new branch, `prac_07_feedback` _before_ you start!
-
 **Note**: This is a fairly long practical, so allocate more than the usual time for it.  
 There are a lot of demos to learn and copy from in <https://github.com/CP1404/KivyDemos>.
 
@@ -23,8 +21,6 @@ by adding kv language syntax highlighting and auto-completion
 - Restart PyCharm.
 
 ***Seriously***, it's worth the 1-2 minutes that this will take.  
-On JCU computers you will have to do it every time, so save the download file on your USB or network drive for next
-time.
 
 # Walkthrough Example
 
@@ -290,7 +286,7 @@ Here's a suggested kv file you could use. Notice how simple it is, but it does h
    the app shows
    "Pass" or "Fail" (based on the value) in a label.
 
-    - Then extend this to show the JCU grade (e.g. 65-75 is a credit).
+    - Then extend this to show the JCU-style grade (e.g. 65-75 is a credit).
 
 3. Make a GUI for the temperature converter program you did in the first practical.  
    It will be very similar to the miles to kilometres program, but instead of just copying that one and modifying it,
@@ -333,7 +329,6 @@ Here's a suggested kv file you could use. Notice how simple it is, but it does h
    We started working on a simple guessing game Kivy app here: <https://github.com/CP1404/GuessingGame>
     - Form a team of two students for some **pair programming**
     - Have a look at the repo, and try your hand at making the app work
-    - Then make a Pull Request back to us.
 
 # Deliverables
 

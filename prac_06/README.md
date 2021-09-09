@@ -1,17 +1,5 @@
 # Practical 06 - Classes
 
-**Code Reviews help you learn!**
-Each practical from now on, you will do your work in a **new branch**, then do a **pull request**, mentioning a
-new/different student to get (and give)
-a code review. So, this week, ***before*** starting the prac, create a new branch, `prac_06_feedback`.  
-See how this works? Please ask for help if you're not sure.
-
-When you have finished the code reviewing process, you can merge your changes to close the pull request.  
-It is desirable that everyone completes this properly with a decent code review, lessons from the experience, and
-improved code, but realistically some students will not do this. Merge your code without a review if you need to.  
-**Your** mark is not dependent on someone else's work. You must do the PR with a valid mention, but you don't need to
-rely on receiving a code review to complete your own work.
-
 We have seen how to work with lists, tuples and dictionaries to store and process data appropriate for those types:
 
 - `list` is useful for storing an ordered sequence of data (e.g. monthly rainfall data)

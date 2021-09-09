@@ -1,28 +1,13 @@
 # Practical 03 - Functions, GitHub
 
-This week (and from now on), we'll be using Git and GitHub for our work.
-
-If you haven't set up your own GitHub account, please do so now. See our
-instructions at:
-<https://github.com/CP1404/Starter/wiki/Software-Setup#github>
-
-Note that you should use a meaningful username that identifies who you
-are. JCU staff should be able to determine who you are from your
-username. Your GitHub account is an important and professional record of
-your work. You will likely use it as an online portfolio in the future.
-
-As you should have noticed, we have a GitHub organisation for this
-subject at:
-<https://github.com/CP1404>,
-which contains repositories for in-class demos, practicals, Kivy
-examples...
+This week (and from now on), we'll be using Git and GitHub for our work.  
+If you haven't set up your own GitHub account, please do so now.
 
 # First!
 
 ![Pencil Icon](../images/03image1.png)  
 
-In one of our end-of-subject YourJCU
-student feedback surveys, a student suggested that we do more
+In an end-of-subject student feedback survey, a student suggested that we do more
 hand-writing code to help prepare for the final examination. Great idea! And it
 shows it's a great idea for you to provide us with your feedback --
 during the semester anytime, and especially in our main surveys.
@@ -44,7 +29,6 @@ and brackets.
 We will start by demonstrating the basic
 methods for using **Git** version control with **GitHub** as your online
 storage tool. Note that ***Git and GitHub are different things!***  
-We will do this from the point of view of someone working on a JCU lab computer.
 This will be enough to get you started, but please keep learning and
 practising with Git and GitHub.
 
@@ -345,13 +329,6 @@ program"). Now let's modify this program.
     
 4. Finished? Then commit - with a meaningful message in the imperative voice.  
    This could be something like "Refactor password check program to use functions" 
-
-If you have not done so already, please *upgrade* your GitHub account to a free
-student account at:
-<https://education.github.com/discount_requests/new>  
-(You may need to upload a photo of your JCU student ID.)  
-This allows you to have private repositories for free, and you can get the GitHub
-Education Pack!
 
 # Do-from-scratch Exercises
 

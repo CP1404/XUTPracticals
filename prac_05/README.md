@@ -17,10 +17,6 @@ on some programs, then review another student's work.
 *You need to complete the tasks and do a **Pull Request** that *mentions*
 another student to get full marks for this practical.*
 
-Your lecturer may have provided you with details of
-[whom to mention](https://github.com/CP1404/Starter/wiki/Code-Review-Order), so please follow that.  
-Otherwise, follow your lecturer's instructions for whom to mention.
-
 **Remember**: Sometimes there will be changes to the GitHub website design or PyCharm, etc. that mean these instructions
 will be slightly different.  
 You should still be able to figure out what needs to be done.
@@ -45,12 +41,6 @@ or bug fixes, or in our case getting feedback.
    then click **+ New Branch**
 
 ![New Git Branch](../images/05image2.png)
-
-When you do your work for the following prac, if you need/want to do a pull request, use `prac_06_feedback` and so
-on...  
-(In previous years, we used the same branch name for all PRs
-(external students do one every week), but this caused some confusion with students continuing to work on 'old'
-branches, so now we ask for a new branch for each prac.)
 
 It may look like nothing happened, but your local repository should now have a new branch, which currently has the same
 contents as the 'master' branch, and it is now the one that is "checked out". See in the footer:

@@ -470,16 +470,8 @@ method.
 
 ## Got your GitHub on?
 
-If you haven't set up your own GitHub account, please do so now. See our
-instructions at:
-<https://github.com/CP1404/Starter/wiki/Software-Setup#github>
-
-Note that you should use a meaningful username that identifies who you
-are, and you must use your JCU email address. (If you already have a
-GitHub account with a non-JCU address, you can add your JCU email as a
-secondary email; you do not need to create a new account.)  
-Ideally, JCU staff should be able to tell who you are from your
-username. Your GitHub account is an important and professional record of
+If you haven't set up your own GitHub account, please do so now. 
+Your GitHub account is an important and professional record of
 your work. You will likely use it as an online portfolio in the future.
 
 # Practice & Extension Work

@@ -1,24 +1,27 @@
 # Practical 01 - Basic Python Programming in PyCharm
 
-**Welcome to CP1404 practicals!** 
+**Welcome to practicals!** 
 
 If you haven't read the introduction to pracs and marking, please [read this now](../README.md).  
-**Note: All students (internal and external), please submit your prac work via LearnJCU each week by the due date.**
-
+**Note: All students, please submit your prac work as instructed by your teacher each week by the due date.**
+    
 # Walkthrough Example
 
 Let's start by getting you used to working with the PyCharm IDE
 (Integrated Development Environment).
 
-If you are using your own computer, complete the instructions for setting
-up all the required software at:
-<https://github.com/CP1404/Starter/wiki/Software-Setup>
+If you are using your own computer, install the required software according to the instructions for each program:
+
+* Python (3.9 or above)
+* Git
+* PyCharm (the free Community edition is sufficient)
+* Kivy (2.0 or above)
 
 To start with, you don't need Git or Kivy, just Python 3 and PyCharm.  
 The first thing you need to know is how to run a Python program in
 PyCharm.
 
-1.  Locate and run the PyCharm software on your lab or personal
+1.  Locate and run the PyCharm software on your personal
     computer.  
     When PyCharm first starts you should have a window with a link to
     create a new project.
@@ -40,7 +43,7 @@ PyCharm.
 
     -   the **interpreter** is the version of Python we need to run our code on the computer.  
         Use the *previously configured interpreter* for Python 3.  
-        **DO NOT use a virtual environment (Virtualenv).** They're cool, but we don't
+        **DO NOT use a virtual environment (Virtualenv or venv).** They're cool, but we don't
         need them in this subject... they make things harder for you.
 
     ![New project window - choose previously configured interpreter](../images/Python-Windows-Install-3-Project-1.png)
@@ -476,14 +479,15 @@ Save each program in a different file within the prac_01 folder.
     4.  Exit the program
 
 # Solutions?
-Remember that solutions are provided for most prac exercises... to help you learn, not just for copying :)  
+Remember that solutions are provided for most prac exercises...  
+These are to help you learn, not for copying :)  
 See the solutions branch here in this repository. Change the **branch** to "solutions" at the top of the page. 
 
 # Deliverables
 This section summarises the expectations for marking in this practical.
 
-- temperatures.py
-- sales_bonus.py
-- broken_score.py
-- loops.py
-- shop_calculator.py
+- `temperatures.py`
+- `sales_bonus.py`
+- `broken_score.py`
+- `loops.py`
+- `shop_calculator.py`
