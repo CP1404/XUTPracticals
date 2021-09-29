@@ -172,6 +172,19 @@ parameter instead of getting it. This makes the logic less _"tightly coupled"_ t
 It still puts the calculated result back in the view directly, so it's only one step towards better separation, but it
 does show you how Git and GitHub can record and show your progress as you improve your code by refactoring.
 
+**But wait... here's an even better example from the same demo!**
+The previous version had a line in the kv file, like:
+```
+on_press: app.handle_calculate(int(input_number.text))
+```
+This seems fine, but it's doing too much for the "view". We should be able to change out the view for something different and have it still work. Here, the view is doing more than one job...  
+ It's converting a type... not it's job.  
+So what? Well, what if the user enters text in the field? The kv file contains the code to do the type conversion, which would crash! Where would we put our exception handling? Not in the kv/view!  
+
+So, [this diff shows an update](https://github.com/CP1404/KivyDemos/commit/7b022e48197813e9c73eb8b51edb67a4105d493c) that improves the program by moving the conversion out of the view to where we can handle the possible exception.  
+Ah, that's better :) 
+
+
 # Do-from-scratch Exercises
 
 ## Miles to Kilometres Converter

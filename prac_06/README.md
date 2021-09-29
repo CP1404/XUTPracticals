@@ -424,7 +424,6 @@ Then, next time you're ready to commit and push your practical work, try using t
 
 This section summarises the expectations for marking in this practical.
 
-- Practicals repository on GitHub and up-to-date (every week)
 - `car.py` modifications
 - `used_cars.py` modifications (cars have names)
 - `programming_language.py` (the class), `languages.py` (the client program)
