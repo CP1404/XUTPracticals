@@ -121,7 +121,7 @@ Once you have stored all the emails and names, just loop through the dictionary 
 them out.
 
     Email: lindsay.ward@jcu.edu.au
-    Is your name Lindsay Ward? (Y/n)
+    Is your name Lindsay Ward? (Y/n) Yes
     Email: abe@gmail.com
     Is your name Abe? (Y/n) y
     Email: jimbo546@hotmail.com
