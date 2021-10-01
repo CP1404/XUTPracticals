@@ -95,16 +95,16 @@ it's in the dictionary...
   width. This can be done with another `{}` placeholder, like:
 
   ```python
-  print("{:{}} = {}".format(x, y, z))
+  print("{:{}} : {}".format(x, y, z))
   ```
 
   This formats the first placeholder value, x, with a width of y then prints a literal = then the value of z.  
   (Note that x, y and z are not intended to be meaningful names.)
   Your output should then look something like:
 
-      a :          2
+      a          : 2
       collection : 1
-      fun :        1
+      fun        : 1
 
 ## Emails
 
