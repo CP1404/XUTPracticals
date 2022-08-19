@@ -94,14 +94,14 @@ it's in the dictionary...
   Then you can use the string `format` method (or f-strings) to take a variable
   width. This can be done with another `{}` placeholder, like in this example:
 
-  ```python
+```python
 thing, width, other_thing = "first", 13, "second"
 print("{:{}} = {}".format(thing, width, other_thing))
 print(f"{thing:{width}} = {other_thing}")  # or f-string version
   ```
 
-  This formats the first placeholder value, `thing`, with a width of `width` then prints a literal = then the value of `other_thing`.  
-  Your output should then look something like:
+This formats the first placeholder value, `thing`, with a width of `width` then prints a literal = then the value of `other_thing`.  
+ Your output should then look something like:
 
       a          : 2
       collection : 1

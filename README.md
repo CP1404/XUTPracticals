@@ -18,7 +18,7 @@ Seriously, **never copy the solutions** as this will not help you learn as much 
 * [Practical 02 - Strings, Files, Exceptions](./prac_02)
 * [Practical 03 - Functions, GitHub](./prac_03)
 * [Practical 04 - Lists](./prac_04)
-* [Practical 05 - Dictionaries, Code Reviews with PRs](./prac_05)
+* [Practical 05 - Dictionaries](./prac_05)
 * [Practical 06 - Classes](./prac_06)
 * [Practical 07 - Kivy](./prac_07)
 * [Practical 08 - Inheritance](./prac_08)
@@ -40,12 +40,12 @@ the practice/extension section. You will be marked as follows:
 - Your work looks too similar to any provided solutions
 - Your work includes concepts and code not taught in the subject
 - You miss or skip part of a question (you must attempt all requirements for all questions)
-- Your work does not follow the core concepts and patterns (e.g. using global variables, while True loops or similar techniques), even if they work!
+- Your work does not follow the core concepts and patterns (e.g., using global variables, while True loops or similar techniques), even if they work!
 
 ## Structure
 Each practical is usually structured in multiple parts:
 
--   **Part 1** is usually a walkthrough or a warm up that should not take
+-   **Part 1** is usually a walkthrough or a warm-up that should not take
     long but shows you working code (which you can reference and learn
     from),
 
