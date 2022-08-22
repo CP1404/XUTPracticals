@@ -16,7 +16,7 @@ Seriously, **never copy the solutions** as this will not help you learn as much 
 
 * [Practical 01 - PyCharm, Control](./prac_01)
 * [Practical 02 - Strings, Files, Exceptions](./prac_02)
-* [Practical 03 - Functions, GitHub](./prac_03)
+* [Practical 03 - Functions](./prac_03)
 * [Practical 04 - Lists](./prac_04)
 * [Practical 05 - Dictionaries](./prac_05)
 * [Practical 06 - Classes](./prac_06)
