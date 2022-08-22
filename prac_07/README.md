@@ -1,7 +1,7 @@
 # Practical 07 - Kivy
 
 **Note**: This is a fairly long practical, so allocate more than the usual time for it.  
-There are a lot of demos to learn and copy from in <https://github.com/CP1404/KivyDemos>.
+There are a lot of demos to learn and copy from the provided `KivyDemos.zip` file
 
 If you're using your own computer, and you haven't already done so, please follow the setup instructions for installing
 Kivy at:
@@ -11,7 +11,7 @@ If you haven't already, **please save yourself time and make life easier**
 by adding kv language syntax highlighting and auto-completion
 (since PyCharm does not know about kv language by default):
 
-- Download: <https://github.com/Zen-CODE/kivybits/blob/master/IDE/PyCharm_kv_completion.jar?raw=true>
+- Download the provided `PyCharm_kv_completion.jar` settings file.
 
 - In PyCharm's main menu, click **Import Settings** or **File >
   Import**, depending on your version
@@ -24,25 +24,13 @@ by adding kv language syntax highlighting and auto-completion
 
 # Walkthrough Example
 
-**Download** the GitHub repository for our Kivy Examples:
-[https://github.com/CP1404/KivyDemos](https://github.com/CP1404/KivyDemos)
+**Download** KivyDemos.zip
 
-You could use Git to clone it, which makes a complete copy, including the Git history, but since you don't have write
-permissions on this repo you will not be able to push changes back to it. The easiest thing is just to use the GitHub
-website to **Download ZIP**.
-
-![GitHub Download ZIP option](../images/07image1.png)
-
-1. The work that you do for this practical should be saved, committed and pushed to your Practicals repository in
-   the `prac_07` folder. The simplest thing is to just **copy everything from the demos zip you just downloaded into
-   your `prac_07` folder**. Then only commit the work you do. You don't need to upload all the other examples to GitHub,
-   but you can if you really really want.
-
-2. (Here's a very simple example)  
+1. (Here's a very simple example)  
    Open and run the `hello_world.py` file.  
    You should see a plain black window with "HelloWorld" in the title.
 
-3. (Here's an advanced example)  
+2. (Here's an advanced example)  
    Open and run the `popup_demo.py` file (which uses
    `popup_demo.kv`) and run that to see how it works. You don't need to understand it all just yet, but try to get an
    overview of the structure, and look for the parts you do recognise.
@@ -59,18 +47,18 @@ button. It will end up looking like this:
 
 1. Add a **label** below the third button with the **text** "Enter your name":
 
-```
-Button:
-    text: 'three'
-Label:
-    text: 'Enter your name'
-```
+    ```
+    Button:
+        text: 'three'
+    Label:
+        text: 'Enter your name'
+    ```
 
 2. Set the new label's text colour to yellow, by adding the following property details "inside" the label:
 
        color: (1, 1, 0, 1)
 
-3. Change the first button so it says "Clear" and the third button so it says "Greet".
+3. Change the first button so that it says "Clear" and the third button so it says "Greet".
 
 4. Now to add a button handler, you need to edit both the py and kv files. Look at the 'id_demo' files for a good
    example of this...  
@@ -95,10 +83,10 @@ Label:
 
 7. Now in your handle_greet function, change this label's text, like:
 
-   ```python
-   print("test")
-   self.root.ids.output_label.text = "Hello "
-   ```
+    ```python
+    print("test")
+    self.root.ids.output_label.text = "Hello "
+    ```
 
 8. Change button "two" to a text input field, like:
 
@@ -125,7 +113,7 @@ Label:
 Open the `squaring.py/kv` files from the demos.
 
 Run the code to see a simple app with a text entry field, a button and a label that squares a number.  
-Spend a while reading the code so you know how it works. Pay special attention to the functionality - how it handles the
+Spend some time reading the code so that you know how it works. Pay special attention to the functionality - how it handles the
 button being pressed:
 
 # Modifications
@@ -161,29 +149,6 @@ button being pressed:
 
 - The red BoxLayout will be the top level widget.  
   Nice...
-
-**Refactoring Example:**
-
-Have a look at the following commit "diff" for the squaring program:
-<https://github.com/CP1404/Practicals/commit/2f9b38dcfc393e2f50f9b30f6da36f9aabf4ee1f>
-
-You can see that we changed the code so that the button handler function now takes in the value of the text field as a
-parameter instead of getting it. This makes the logic less _"tightly coupled"_ to the view.  
-It still puts the calculated result back in the view directly, so it's only one step towards better separation, but it
-does show you how Git and GitHub can record and show your progress as you improve your code by refactoring.
-
-**But wait... here's an even better example from the same demo!**
-The previous version had a line in the kv file, like:
-```
-on_press: app.handle_calculate(int(input_number.text))
-```
-This seems fine, but it's doing too much for the "view". We should be able to change out the view for something different and have it still work. Here, the view is doing more than one job...  
- It's converting a type... not it's job.  
-So what? Well, what if the user enters text in the field? The kv file contains the code to do the type conversion, which would crash! Where would we put our exception handling? Not in the kv/view!  
-
-So, [this diff shows an update](https://github.com/CP1404/KivyDemos/commit/7b022e48197813e9c73eb8b51edb67a4105d493c) that improves the program by moving the conversion out of the view to where we can handle the possible exception.  
-Ah, that's better :) 
-
 
 # Do-from-scratch Exercises
 
