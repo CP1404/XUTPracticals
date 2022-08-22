@@ -1,28 +1,6 @@
 # Practical 04 - Lists
 
-Now that you know how to use version control (Git and GitHub), please use it
-consistently for **all** your work. This should just be how you normally work now.  
-Remember that it's an important "industry-relevant" skill that you should expect to use 
-for many years to come (your entire IT career), so make the time to get good at it.  
-
-If you do not already have your prac work with you, start by **cloning** 
-your prac repository via PyCharm, **VCS > Checkout From Version Control > Git/GitHub**  
-
-Each time you finish a practical task, **commit** it.  
-
-You only need to **push** once (when you finish and/or it's time to leave), 
-but you can do it more often if you wish. 
-
-When you're about to make a change, like refactoring, commit first so you
-can track the differences and you can go back to a previous version if
-you need to.
-
-**Please remember**, if you do not finish a practical during class time,
-it's not over... you need to complete it during the week so that you're
-all finished by the *start* of the next practical. If you need help with 
-anything, bring those questions to your tutor the following
-week or ask us for help online.  
-And remember, everything you need to know has been taught in the lectures and pracs.
+Remember, everything you need to know has been taught in the lectures, pracs and guides.
 
 # Warm-Up
 
@@ -236,53 +214,6 @@ Your code should produce output that matches this sample output
     13 21 28 29 42 43
      3  4 10 11 32 44
 
-## .gitignore
-
-![GitHub logo](../images/03image2.png)  
-Before we're done, let's learn one more Git thing, ignoring files.
-
-You will have files in your project that you don't want stored in your
-repo (like PyCharm metadata files). You can just choose not to add them
-(as we've done until now) but they do show up as "unversioned files".   
-We'd prefer this to only show us files we probably should add.
-
-![Unversioned Files window](../images/04image2.png)
-
-The solution is to add a file called `.gitignore` to your repository.  
-Note the exact spelling, including the dot at the start. On Unix-like
-systems (including Mac), the dot makes a file/folder _hidden_.
-
-.gitignore is just a plain text file that stores the names of any files or
-folders you want Git not to track and not to warn you about.  
-Your file will still exist in your _project_, but not in your _repository_.
-
-**Create a file called .gitignore** in the **root folder** of your pracs project/repo, 
-and let PyCharm add it to Git.
-
-Then enter one line (the trailing slash means it will match a directory
-but not a file with that name):
-
-    .idea/
-
-.idea is the directory (folder) that PyCharm stores its project metadata in.
-
-Now look at that Version Control tool window... problem solved!
-
-![No unversioned files](../images/04image3.png)
-
-Commit and Push.
-
-**Note:** if you have already committed your .idea folder to your
-repository, PyCharm does not seem to provide a way to stop tracking this. 
-You have to use the Git command line (e.g. in PyCharm, git bash, or Mac Terminal).  
-Ask your tutor if you've never done this before.  
-_Change into your project folder_ and run the following command:
-
-    git rm -r --cached .idea
-
-This removes (`rm`) recursively (`-r`) the `.idea` folder, but only from the
-index, not the local disk (`--cached`).
-
 # Practice & Extension Work
 
 We know from many years of teaching programming, that to get good at this, you need to spend
@@ -364,4 +295,3 @@ This section summarises the expectations for marking in this practical.
 - list_exercises.py
 - list_comprehensions.py
 - quick_picks.py
-- .gitignore
