@@ -174,10 +174,10 @@ on what version of PyCharm you have.
 ```python
     import os
 
-print("The files and folders in {} are:".format(os.getcwd()))
-items = os.listdir('.')
-for item in items:
-    print(item)
+    print("The files and folders in {} are:".format(os.getcwd()))
+    items = os.listdir('.')
+    for item in items:
+        print(item)
 ```
 
 17. Run it to make sure it works. It should show you a list of all the
@@ -461,22 +461,6 @@ Let's step through the program using the interactive debugger now...
        138 gophers were born. 180 died.
        Population: 847
        ...
-
-## Learn Git and GitHub
-
-The following guide shows you lots of useful things just using GitHub online:
-<https://guides.github.com/activities/hello-world/>
-
-### Git Command Line
-
-Even if you just use the built-in tools in your IDE, you will be able to
-understand more of what's happening in Git Version Control if you know
-the command line tools. Over time you should get experience using both.
-
-So let's learn more about how Git works and pick up some command line
-skills by doing the excellent interactive online Git tutorial:
-
-[try.github.io](https://try.github.io)
 
 # Deliverables
 
